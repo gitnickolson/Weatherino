@@ -9,7 +9,6 @@ body {
 }
 
 .index-grid-container {
-    border: 3px solid black;
     display: grid;
     grid-template-rows: 1fr 6fr;
     width: 100vw;
@@ -81,3 +80,6 @@ body {
     font-size: 1em;
 }
 
+.submit-button:hover {
+    background-color: #fcebca;
+}
